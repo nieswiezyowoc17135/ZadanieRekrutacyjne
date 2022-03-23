@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="validation.js"></script>
+    <title>Formularz</title>
+</head>
+<body>
+    <form id="pakunek">
+        <div class="input-control" >
+            <label for="first-name">Imię:</label><br>
+            <input type="text" id="first-name" name="fname" placeholder="Imie" required><br>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="last-name">Nazwisko:</label><br>
+            <input type="text" id="last-name" name="lname" placeholder="Nazwisko" required><br>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="pesel">Pesel:</label><br>
+            <input type="number" id="pesel" name="pid" placeholder="Pesel" required><br>
+            <div class="error"></div>
+        </div>
+        <button class="button1" role="button">Wyślij</button>
+      </form>
+</body>
+</html>
